@@ -1,0 +1,114 @@
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+
+.s1 {
+  background: url("../images/one.jpg");
+  background-size: cover;
+}
+
+.s2 {
+  background: url("../images/two.jpg");
+  background-size: cover;
+}
+
+.s2 h1 {
+  text-align: left;
+  margin-left: 2em;
+  font-size: 4rem;
+}
+
+.s3 {
+  background: url("../images/three.jpg");
+  background-size: cover;
+}
+
+.s3 h1 {
+  text-align: left;
+  margin-left: 2em;
+  font-size: 2em;
+}
+
+.s4 {
+  background: url("../images/four.jpg");
+  background-size: cover;
+}
+
+.s4 h1 {
+  text-align: left;
+  margin-left: 2em;
+  font-size: 4em;
+  color: #000000;
+}
+
+span {
+  background: white !important;
+}
+
+.fp-slidesNav.fp-bottom {
+  margin-left: 1em !important;
+}
+
+.smooth {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+  owerflow-y: hidden;
+  -ms-scroll-snap-type: mandatory;
+      scroll-snap-type: mandatory;
+  -ms-scroll-snap-points-x: repeat(100vh);
+      scroll-snap-points-x: repeat(100vh);
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  min-height: 59px;
+  font-size: 1rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1d1e22), color-stop(rgba(29, 30, 34, 0.1)), to(transparent));
+  background: linear-gradient(180deg, #1d1e22, rgba(29, 30, 34, 0.1), transparent);
+  mix-blend-mode: luminosity;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header ul li a {
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 590;
+  color: #f4f4f4;
+}
+
+.header ul li a::after {
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  content: '';
+  width: 0;
+  height: 3px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+/*# sourceMappingURL=main.css.map */
